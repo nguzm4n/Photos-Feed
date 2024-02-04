@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(228, 220, 220);
+}
+
+
+.titulo {
+    margin: auto;
+    border-bottom: 10px red;
+    border-color: red;
+}
+.header h1 {
+    text-align: center;
+    background-color: white;
+    margin-top: 0;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+div {
+    box-sizing: content-box
+}
+.marco {
+    height: 800px; 
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid grey
+}
+
+.head {
+    border: 1px;
+    border-bottom: 1px red;
+    height: 50px;
+    width: 500px;
+    
+    display: flex;
+}
+
+.titulo {
+	width: 400px;
+	height: 50px;
+    padding: 20px ;
+    font-size: small;
+	
+}
+
+.date   {
+   
+    width: 100px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.titulo .date {
+    box-sizing: border-box;
+}
+.date p {
+    padding-left: 10px;
+    color: grey;
+}
+
+.titulo h2 {
+    position: relative;
+    
+    top: -10px;
+}
+
+.foto {
+    
+    box-sizing: content-box;
+    height: 655px;
+    width: 500px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+img {
+    height: 650px;
+    width: 500px;
+}
+
+.descripcion p {
+    padding-top: 10px;
+    padding-left: 20px;   
+    padding-right: 20px;
+    font-size: 19px;
+}
