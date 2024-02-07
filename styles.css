@@ -77,8 +77,9 @@ div {
 }
 
 img {
-    height: 650px;
-    width: 500px;
+    height: 98%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .descripcion p {
